@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+*:focus-visible {
+    outline: 2px solid #000;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.header h1 {
+    font-size: 2rem;
+}
+.header nav {
+    margin-top: 10px;
+}
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+.header nav a:hover {
+    text-decoration: underline;
+}
+.header nav a:focus {
+    outline: 2px solid #fff;
+}
+.body {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.body h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.body p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.footer p {
+    font-size: 1rem;
+}
+.body button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.body button:hover {
+    background-color: #555;
+}
+.body button:focus {
+    outline: 2px solid #000;
+}
+.body input[type="text"],
+.body input[type="email"],  
+.body input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.body input[type="text"]:focus,
+.body input[type="email"]:focus,
+.body input[type="password"]:focus {
+    border-color: #333;
+}
+.body label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.body form {
+    display: flex;
+    flex-direction: column;
+}
+.body form button {
+    align-self: flex-start;
+}
+.body .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.body .success {
+    color: green;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.body .info {
+    color: blue;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.body .warning {
+    color: orange;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.body .card {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}   
+.body .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.body .card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
